@@ -1,0 +1,1180 @@
+本轮操作 s4
+当前状态栈 [0,4]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"int","props":{}}]
+当前待输入栈顶 id
+
+
+本轮操作 L → int
+当前状态栈 [0]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"L","props":{"type":"int"}}]
+当前待输入栈顶 id
+
+
+本轮操作 3
+当前状态栈 [0,3]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"L","props":{"type":"int"}}]
+当前待输入栈顶 id
+
+
+本轮操作 s12
+当前状态栈 [0,3,12]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"L","props":{"type":"int"}},{"symbol":"id","props":{"lexeme":"a"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 s18
+当前状态栈 [0,3,12,18]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"L","props":{"type":"int"}},{"symbol":"id","props":{"lexeme":"a"}},{"symbol":";","props":{}}]
+当前待输入栈顶 int
+
+
+本轮操作 s4
+当前状态栈 [0,3,12,18,4]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"L","props":{"type":"int"}},{"symbol":"id","props":{"lexeme":"a"}},{"symbol":";","props":{}},{"symbol":"int","props":{}}]
+当前待输入栈顶 id
+
+
+本轮操作 L → int
+当前状态栈 [0,3,12,18]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"L","props":{"type":"int"}},{"symbol":"id","props":{"lexeme":"a"}},{"symbol":";","props":{}},{"symbol":"L","props":{"type":"int"}}]
+当前待输入栈顶 id
+
+
+本轮操作 3
+当前状态栈 [0,3,12,18,3]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"L","props":{"type":"int"}},{"symbol":"id","props":{"lexeme":"a"}},{"symbol":";","props":{}},{"symbol":"L","props":{"type":"int"}}]
+当前待输入栈顶 id
+
+
+本轮操作 s12
+当前状态栈 [0,3,12,18,3,12]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"L","props":{"type":"int"}},{"symbol":"id","props":{"lexeme":"a"}},{"symbol":";","props":{}},{"symbol":"L","props":{"type":"int"}},{"symbol":"id","props":{"lexeme":"b"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 s18
+当前状态栈 [0,3,12,18,3,12,18]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"L","props":{"type":"int"}},{"symbol":"id","props":{"lexeme":"a"}},{"symbol":";","props":{}},{"symbol":"L","props":{"type":"int"}},{"symbol":"id","props":{"lexeme":"b"}},{"symbol":";","props":{}}]
+当前待输入栈顶 int
+
+
+本轮操作 s4
+当前状态栈 [0,3,12,18,3,12,18,4]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"L","props":{"type":"int"}},{"symbol":"id","props":{"lexeme":"a"}},{"symbol":";","props":{}},{"symbol":"L","props":{"type":"int"}},{"symbol":"id","props":{"lexeme":"b"}},{"symbol":";","props":{}},{"symbol":"int","props":{}}]
+当前待输入栈顶 id
+
+
+本轮操作 L → int
+当前状态栈 [0,3,12,18,3,12,18]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"L","props":{"type":"int"}},{"symbol":"id","props":{"lexeme":"a"}},{"symbol":";","props":{}},{"symbol":"L","props":{"type":"int"}},{"symbol":"id","props":{"lexeme":"b"}},{"symbol":";","props":{}},{"symbol":"L","props":{"type":"int"}}]
+当前待输入栈顶 id
+
+
+本轮操作 3
+当前状态栈 [0,3,12,18,3,12,18,3]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"L","props":{"type":"int"}},{"symbol":"id","props":{"lexeme":"a"}},{"symbol":";","props":{}},{"symbol":"L","props":{"type":"int"}},{"symbol":"id","props":{"lexeme":"b"}},{"symbol":";","props":{}},{"symbol":"L","props":{"type":"int"}}]
+当前待输入栈顶 id
+
+
+本轮操作 s12
+当前状态栈 [0,3,12,18,3,12,18,3,12]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"L","props":{"type":"int"}},{"symbol":"id","props":{"lexeme":"a"}},{"symbol":";","props":{}},{"symbol":"L","props":{"type":"int"}},{"symbol":"id","props":{"lexeme":"b"}},{"symbol":";","props":{}},{"symbol":"L","props":{"type":"int"}},{"symbol":"id","props":{"lexeme":"c"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 s18
+当前状态栈 [0,3,12,18,3,12,18,3,12,18]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"L","props":{"type":"int"}},{"symbol":"id","props":{"lexeme":"a"}},{"symbol":";","props":{}},{"symbol":"L","props":{"type":"int"}},{"symbol":"id","props":{"lexeme":"b"}},{"symbol":";","props":{}},{"symbol":"L","props":{"type":"int"}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":";","props":{}}]
+当前待输入栈顶 id
+
+
+本轮操作 D → ε
+当前状态栈 [0,3,12,18,3,12,18,3,12,18]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"L","props":{"type":"int"}},{"symbol":"id","props":{"lexeme":"a"}},{"symbol":";","props":{}},{"symbol":"L","props":{"type":"int"}},{"symbol":"id","props":{"lexeme":"b"}},{"symbol":";","props":{}},{"symbol":"L","props":{"type":"int"}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":";","props":{}},{"symbol":"D","props":{}}]
+当前待输入栈顶 id
+
+
+本轮操作 30
+当前状态栈 [0,3,12,18,3,12,18,3,12,18,30]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"L","props":{"type":"int"}},{"symbol":"id","props":{"lexeme":"a"}},{"symbol":";","props":{}},{"symbol":"L","props":{"type":"int"}},{"symbol":"id","props":{"lexeme":"b"}},{"symbol":";","props":{}},{"symbol":"L","props":{"type":"int"}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":";","props":{}},{"symbol":"D","props":{}}]
+当前待输入栈顶 id
+
+
+本轮操作 D → L id ; D
+当前状态栈 [0,3,12,18,3,12,18]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"L","props":{"type":"int"}},{"symbol":"id","props":{"lexeme":"a"}},{"symbol":";","props":{}},{"symbol":"L","props":{"type":"int"}},{"symbol":"id","props":{"lexeme":"b"}},{"symbol":";","props":{}},{"symbol":"D","props":{}}]
+当前待输入栈顶 id
+
+
+本轮操作 30
+当前状态栈 [0,3,12,18,3,12,18,30]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"L","props":{"type":"int"}},{"symbol":"id","props":{"lexeme":"a"}},{"symbol":";","props":{}},{"symbol":"L","props":{"type":"int"}},{"symbol":"id","props":{"lexeme":"b"}},{"symbol":";","props":{}},{"symbol":"D","props":{}}]
+当前待输入栈顶 id
+
+
+本轮操作 D → L id ; D
+当前状态栈 [0,3,12,18]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"L","props":{"type":"int"}},{"symbol":"id","props":{"lexeme":"a"}},{"symbol":";","props":{}},{"symbol":"D","props":{}}]
+当前待输入栈顶 id
+
+
+本轮操作 30
+当前状态栈 [0,3,12,18,30]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"L","props":{"type":"int"}},{"symbol":"id","props":{"lexeme":"a"}},{"symbol":";","props":{}},{"symbol":"D","props":{}}]
+当前待输入栈顶 id
+
+
+本轮操作 D → L id ; D
+当前状态栈 [0]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}}]
+当前待输入栈顶 id
+
+
+本轮操作 2
+当前状态栈 [0,2]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}}]
+当前待输入栈顶 id
+
+
+本轮操作 s8
+当前状态栈 [0,2,8]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"id","props":{"lexeme":"a"}}]
+当前待输入栈顶 =
+
+
+本轮操作 s14
+当前状态栈 [0,2,8,14]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"id","props":{"lexeme":"a"}},{"symbol":"=","props":{}}]
+当前待输入栈顶 digits
+
+
+本轮操作 s25
+当前状态栈 [0,2,8,14,25]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"id","props":{"lexeme":"a"}},{"symbol":"=","props":{}},{"symbol":"digits","props":{"lexeme":"2"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 F → digits
+当前状态栈 [0,2,8,14]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"id","props":{"lexeme":"a"}},{"symbol":"=","props":{}},{"symbol":"F","props":{"addr":"2"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 22
+当前状态栈 [0,2,8,14,22]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"id","props":{"lexeme":"a"}},{"symbol":"=","props":{}},{"symbol":"F","props":{"addr":"2"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 T → F
+当前状态栈 [0,2,8,14]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"id","props":{"lexeme":"a"}},{"symbol":"=","props":{}},{"symbol":"T","props":{"addr":"2"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 21
+当前状态栈 [0,2,8,14,21]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"id","props":{"lexeme":"a"}},{"symbol":"=","props":{}},{"symbol":"T","props":{"addr":"2"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 E → T
+当前状态栈 [0,2,8,14]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"id","props":{"lexeme":"a"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"2"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 20
+当前状态栈 [0,2,8,14,20]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"id","props":{"lexeme":"a"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"2"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 s31
+当前状态栈 [0,2,8,14,20,31]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"id","props":{"lexeme":"a"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"2"}},{"symbol":";","props":{}}]
+当前待输入栈顶 id
+
+
+本轮操作 S → id = E ;
+当前状态栈 [0,2]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"S","props":{}}]
+当前待输入栈顶 id
+
+
+本轮操作 6
+当前状态栈 [0,2,6]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"S","props":{}}]
+当前待输入栈顶 id
+
+
+本轮操作 K → S
+当前状态栈 [0,2]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}}]
+当前待输入栈顶 id
+
+
+本轮操作 7
+当前状态栈 [0,2,7]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}}]
+当前待输入栈顶 id
+
+
+本轮操作 M → ε
+当前状态栈 [0,2,7]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":1}}]
+当前待输入栈顶 id
+
+
+本轮操作 13
+当前状态栈 [0,2,7,13]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":1}}]
+当前待输入栈顶 id
+
+
+本轮操作 s8
+当前状态栈 [0,2,7,13,8]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":1}},{"symbol":"id","props":{"lexeme":"b"}}]
+当前待输入栈顶 =
+
+
+本轮操作 s14
+当前状态栈 [0,2,7,13,8,14]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":1}},{"symbol":"id","props":{"lexeme":"b"}},{"symbol":"=","props":{}}]
+当前待输入栈顶 digits
+
+
+本轮操作 s25
+当前状态栈 [0,2,7,13,8,14,25]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":1}},{"symbol":"id","props":{"lexeme":"b"}},{"symbol":"=","props":{}},{"symbol":"digits","props":{"lexeme":"1"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 F → digits
+当前状态栈 [0,2,7,13,8,14]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":1}},{"symbol":"id","props":{"lexeme":"b"}},{"symbol":"=","props":{}},{"symbol":"F","props":{"addr":"1"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 22
+当前状态栈 [0,2,7,13,8,14,22]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":1}},{"symbol":"id","props":{"lexeme":"b"}},{"symbol":"=","props":{}},{"symbol":"F","props":{"addr":"1"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 T → F
+当前状态栈 [0,2,7,13,8,14]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":1}},{"symbol":"id","props":{"lexeme":"b"}},{"symbol":"=","props":{}},{"symbol":"T","props":{"addr":"1"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 21
+当前状态栈 [0,2,7,13,8,14,21]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":1}},{"symbol":"id","props":{"lexeme":"b"}},{"symbol":"=","props":{}},{"symbol":"T","props":{"addr":"1"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 E → T
+当前状态栈 [0,2,7,13,8,14]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":1}},{"symbol":"id","props":{"lexeme":"b"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"1"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 20
+当前状态栈 [0,2,7,13,8,14,20]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":1}},{"symbol":"id","props":{"lexeme":"b"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"1"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 s31
+当前状态栈 [0,2,7,13,8,14,20,31]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":1}},{"symbol":"id","props":{"lexeme":"b"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"1"}},{"symbol":";","props":{}}]
+当前待输入栈顶 if
+
+
+本轮操作 S → id = E ;
+当前状态栈 [0,2,7,13]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":1}},{"symbol":"S","props":{}}]
+当前待输入栈顶 if
+
+
+本轮操作 19
+当前状态栈 [0,2,7,13,19]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":1}},{"symbol":"S","props":{}}]
+当前待输入栈顶 if
+
+
+本轮操作 K → K M S
+当前状态栈 [0,2]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}}]
+当前待输入栈顶 if
+
+
+本轮操作 7
+当前状态栈 [0,2,7]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}}]
+当前待输入栈顶 if
+
+
+本轮操作 M → ε
+当前状态栈 [0,2,7]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}}]
+当前待输入栈顶 if
+
+
+本轮操作 13
+当前状态栈 [0,2,7,13]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}}]
+当前待输入栈顶 if
+
+
+本轮操作 s9
+当前状态栈 [0,2,7,13,9]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}}]
+当前待输入栈顶 (
+
+
+本轮操作 s15
+当前状态栈 [0,2,7,13,9,15]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}}]
+当前待输入栈顶 id
+
+
+本轮操作 s23
+当前状态栈 [0,2,7,13,9,15,23]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"id","props":{"lexeme":"a"}}]
+当前待输入栈顶 >
+
+
+本轮操作 F → id
+当前状态栈 [0,2,7,13,9,15]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"F","props":{"addr":"a"}}]
+当前待输入栈顶 >
+
+
+本轮操作 22
+当前状态栈 [0,2,7,13,9,15,22]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"F","props":{"addr":"a"}}]
+当前待输入栈顶 >
+
+
+本轮操作 T → F
+当前状态栈 [0,2,7,13,9,15]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"T","props":{"addr":"a"}}]
+当前待输入栈顶 >
+
+
+本轮操作 21
+当前状态栈 [0,2,7,13,9,15,21]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"T","props":{"addr":"a"}}]
+当前待输入栈顶 >
+
+
+本轮操作 E → T
+当前状态栈 [0,2,7,13,9,15]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"E","props":{"addr":"a"}}]
+当前待输入栈顶 >
+
+
+本轮操作 27
+当前状态栈 [0,2,7,13,9,15,27]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"E","props":{"addr":"a"}}]
+当前待输入栈顶 >
+
+
+本轮操作 s38
+当前状态栈 [0,2,7,13,9,15,27,38]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"E","props":{"addr":"a"}},{"symbol":">","props":{}}]
+当前待输入栈顶 id
+
+
+本轮操作 s23
+当前状态栈 [0,2,7,13,9,15,27,38,23]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"E","props":{"addr":"a"}},{"symbol":">","props":{}},{"symbol":"id","props":{"lexeme":"b"}}]
+当前待输入栈顶 )
+
+
+本轮操作 F → id
+当前状态栈 [0,2,7,13,9,15,27,38]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"E","props":{"addr":"a"}},{"symbol":">","props":{}},{"symbol":"F","props":{"addr":"b"}}]
+当前待输入栈顶 )
+
+
+本轮操作 22
+当前状态栈 [0,2,7,13,9,15,27,38,22]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"E","props":{"addr":"a"}},{"symbol":">","props":{}},{"symbol":"F","props":{"addr":"b"}}]
+当前待输入栈顶 )
+
+
+本轮操作 T → F
+当前状态栈 [0,2,7,13,9,15,27,38]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"E","props":{"addr":"a"}},{"symbol":">","props":{}},{"symbol":"T","props":{"addr":"b"}}]
+当前待输入栈顶 )
+
+
+本轮操作 21
+当前状态栈 [0,2,7,13,9,15,27,38,21]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"E","props":{"addr":"a"}},{"symbol":">","props":{}},{"symbol":"T","props":{"addr":"b"}}]
+当前待输入栈顶 )
+
+
+本轮操作 E → T
+当前状态栈 [0,2,7,13,9,15,27,38]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"E","props":{"addr":"a"}},{"symbol":">","props":{}},{"symbol":"E","props":{"addr":"b"}}]
+当前待输入栈顶 )
+
+
+本轮操作 48
+当前状态栈 [0,2,7,13,9,15,27,38,48]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"E","props":{"addr":"a"}},{"symbol":">","props":{}},{"symbol":"E","props":{"addr":"b"}}]
+当前待输入栈顶 )
+
+
+本轮操作 C → E > E
+当前状态栈 [0,2,7,13,9,15]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}}]
+当前待输入栈顶 )
+
+
+本轮操作 26
+当前状态栈 [0,2,7,13,9,15,26]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}}]
+当前待输入栈顶 )
+
+
+本轮操作 s37
+当前状态栈 [0,2,7,13,9,15,26,37]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}}]
+当前待输入栈顶 {
+
+
+本轮操作 M → ε
+当前状态栈 [0,2,7,13,9,15,26,37]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}}]
+当前待输入栈顶 {
+
+
+本轮操作 47
+当前状态栈 [0,2,7,13,9,15,26,37,47]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}}]
+当前待输入栈顶 {
+
+
+本轮操作 s11
+当前状态栈 [0,2,7,13,9,15,26,37,47,11]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"{","props":{}}]
+当前待输入栈顶 id
+
+
+本轮操作 s8
+当前状态栈 [0,2,7,13,9,15,26,37,47,11,8]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"c"}}]
+当前待输入栈顶 =
+
+
+本轮操作 s14
+当前状态栈 [0,2,7,13,9,15,26,37,47,11,8,14]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":"=","props":{}}]
+当前待输入栈顶 id
+
+
+本轮操作 s23
+当前状态栈 [0,2,7,13,9,15,26,37,47,11,8,14,23]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":"=","props":{}},{"symbol":"id","props":{"lexeme":"a"}}]
+当前待输入栈顶 +
+
+
+本轮操作 F → id
+当前状态栈 [0,2,7,13,9,15,26,37,47,11,8,14]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":"=","props":{}},{"symbol":"F","props":{"addr":"a"}}]
+当前待输入栈顶 +
+
+
+本轮操作 22
+当前状态栈 [0,2,7,13,9,15,26,37,47,11,8,14,22]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":"=","props":{}},{"symbol":"F","props":{"addr":"a"}}]
+当前待输入栈顶 +
+
+
+本轮操作 T → F
+当前状态栈 [0,2,7,13,9,15,26,37,47,11,8,14]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":"=","props":{}},{"symbol":"T","props":{"addr":"a"}}]
+当前待输入栈顶 +
+
+
+本轮操作 21
+当前状态栈 [0,2,7,13,9,15,26,37,47,11,8,14,21]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":"=","props":{}},{"symbol":"T","props":{"addr":"a"}}]
+当前待输入栈顶 +
+
+
+本轮操作 E → T
+当前状态栈 [0,2,7,13,9,15,26,37,47,11,8,14]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"a"}}]
+当前待输入栈顶 +
+
+
+本轮操作 20
+当前状态栈 [0,2,7,13,9,15,26,37,47,11,8,14,20]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"a"}}]
+当前待输入栈顶 +
+
+
+本轮操作 s32
+当前状态栈 [0,2,7,13,9,15,26,37,47,11,8,14,20,32]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"a"}},{"symbol":"+","props":{}}]
+当前待输入栈顶 id
+
+
+本轮操作 s23
+当前状态栈 [0,2,7,13,9,15,26,37,47,11,8,14,20,32,23]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"a"}},{"symbol":"+","props":{}},{"symbol":"id","props":{"lexeme":"b"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 F → id
+当前状态栈 [0,2,7,13,9,15,26,37,47,11,8,14,20,32]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"a"}},{"symbol":"+","props":{}},{"symbol":"F","props":{"addr":"b"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 22
+当前状态栈 [0,2,7,13,9,15,26,37,47,11,8,14,20,32,22]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"a"}},{"symbol":"+","props":{}},{"symbol":"F","props":{"addr":"b"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 T → F
+当前状态栈 [0,2,7,13,9,15,26,37,47,11,8,14,20,32]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"a"}},{"symbol":"+","props":{}},{"symbol":"T","props":{"addr":"b"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 42
+当前状态栈 [0,2,7,13,9,15,26,37,47,11,8,14,20,32,42]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"a"}},{"symbol":"+","props":{}},{"symbol":"T","props":{"addr":"b"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 E → E + T
+当前状态栈 [0,2,7,13,9,15,26,37,47,11,8,14]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"t0"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 20
+当前状态栈 [0,2,7,13,9,15,26,37,47,11,8,14,20]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"t0"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 s31
+当前状态栈 [0,2,7,13,9,15,26,37,47,11,8,14,20,31]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"t0"}},{"symbol":";","props":{}}]
+当前待输入栈顶 }
+
+
+本轮操作 S → id = E ;
+当前状态栈 [0,2,7,13,9,15,26,37,47,11]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"{","props":{}},{"symbol":"S","props":{}}]
+当前待输入栈顶 }
+
+
+本轮操作 6
+当前状态栈 [0,2,7,13,9,15,26,37,47,11,6]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"{","props":{}},{"symbol":"S","props":{}}]
+当前待输入栈顶 }
+
+
+本轮操作 K → S
+当前状态栈 [0,2,7,13,9,15,26,37,47,11]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"{","props":{}},{"symbol":"K","props":{}}]
+当前待输入栈顶 }
+
+
+本轮操作 17
+当前状态栈 [0,2,7,13,9,15,26,37,47,11,17]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"{","props":{}},{"symbol":"K","props":{}}]
+当前待输入栈顶 }
+
+
+本轮操作 s29
+当前状态栈 [0,2,7,13,9,15,26,37,47,11,17,29]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"{","props":{}},{"symbol":"K","props":{}},{"symbol":"}","props":{}}]
+当前待输入栈顶 else
+
+
+本轮操作 S → { K }
+当前状态栈 [0,2,7,13,9,15,26,37,47]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"S","props":{}}]
+当前待输入栈顶 else
+
+
+本轮操作 52
+当前状态栈 [0,2,7,13,9,15,26,37,47,52]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"S","props":{}}]
+当前待输入栈顶 else
+
+
+本轮操作 N → ε
+当前状态栈 [0,2,7,13,9,15,26,37,47,52]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"S","props":{}},{"symbol":"N","props":{"nextList":[6]}}]
+当前待输入栈顶 else
+
+
+本轮操作 54
+当前状态栈 [0,2,7,13,9,15,26,37,47,52,54]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"S","props":{}},{"symbol":"N","props":{"nextList":[6]}}]
+当前待输入栈顶 else
+
+
+本轮操作 s56
+当前状态栈 [0,2,7,13,9,15,26,37,47,52,54,56]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"S","props":{}},{"symbol":"N","props":{"nextList":[6]}},{"symbol":"else","props":{}}]
+当前待输入栈顶 {
+
+
+本轮操作 M → ε
+当前状态栈 [0,2,7,13,9,15,26,37,47,52,54,56]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"S","props":{}},{"symbol":"N","props":{"nextList":[6]}},{"symbol":"else","props":{}},{"symbol":"M","props":{"quad":7}}]
+当前待输入栈顶 {
+
+
+本轮操作 57
+当前状态栈 [0,2,7,13,9,15,26,37,47,52,54,56,57]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"S","props":{}},{"symbol":"N","props":{"nextList":[6]}},{"symbol":"else","props":{}},{"symbol":"M","props":{"quad":7}}]
+当前待输入栈顶 {
+
+
+本轮操作 s11
+当前状态栈 [0,2,7,13,9,15,26,37,47,52,54,56,57,11]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"S","props":{}},{"symbol":"N","props":{"nextList":[6]}},{"symbol":"else","props":{}},{"symbol":"M","props":{"quad":7}},{"symbol":"{","props":{}}]
+当前待输入栈顶 id
+
+
+本轮操作 s8
+当前状态栈 [0,2,7,13,9,15,26,37,47,52,54,56,57,11,8]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"S","props":{}},{"symbol":"N","props":{"nextList":[6]}},{"symbol":"else","props":{}},{"symbol":"M","props":{"quad":7}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"c"}}]
+当前待输入栈顶 =
+
+
+本轮操作 s14
+当前状态栈 [0,2,7,13,9,15,26,37,47,52,54,56,57,11,8,14]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"S","props":{}},{"symbol":"N","props":{"nextList":[6]}},{"symbol":"else","props":{}},{"symbol":"M","props":{"quad":7}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":"=","props":{}}]
+当前待输入栈顶 id
+
+
+本轮操作 s23
+当前状态栈 [0,2,7,13,9,15,26,37,47,52,54,56,57,11,8,14,23]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"S","props":{}},{"symbol":"N","props":{"nextList":[6]}},{"symbol":"else","props":{}},{"symbol":"M","props":{"quad":7}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":"=","props":{}},{"symbol":"id","props":{"lexeme":"a"}}]
+当前待输入栈顶 -
+
+
+本轮操作 F → id
+当前状态栈 [0,2,7,13,9,15,26,37,47,52,54,56,57,11,8,14]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"S","props":{}},{"symbol":"N","props":{"nextList":[6]}},{"symbol":"else","props":{}},{"symbol":"M","props":{"quad":7}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":"=","props":{}},{"symbol":"F","props":{"addr":"a"}}]
+当前待输入栈顶 -
+
+
+本轮操作 22
+当前状态栈 [0,2,7,13,9,15,26,37,47,52,54,56,57,11,8,14,22]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"S","props":{}},{"symbol":"N","props":{"nextList":[6]}},{"symbol":"else","props":{}},{"symbol":"M","props":{"quad":7}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":"=","props":{}},{"symbol":"F","props":{"addr":"a"}}]
+当前待输入栈顶 -
+
+
+本轮操作 T → F
+当前状态栈 [0,2,7,13,9,15,26,37,47,52,54,56,57,11,8,14]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"S","props":{}},{"symbol":"N","props":{"nextList":[6]}},{"symbol":"else","props":{}},{"symbol":"M","props":{"quad":7}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":"=","props":{}},{"symbol":"T","props":{"addr":"a"}}]
+当前待输入栈顶 -
+
+
+本轮操作 21
+当前状态栈 [0,2,7,13,9,15,26,37,47,52,54,56,57,11,8,14,21]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"S","props":{}},{"symbol":"N","props":{"nextList":[6]}},{"symbol":"else","props":{}},{"symbol":"M","props":{"quad":7}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":"=","props":{}},{"symbol":"T","props":{"addr":"a"}}]
+当前待输入栈顶 -
+
+
+本轮操作 E → T
+当前状态栈 [0,2,7,13,9,15,26,37,47,52,54,56,57,11,8,14]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"S","props":{}},{"symbol":"N","props":{"nextList":[6]}},{"symbol":"else","props":{}},{"symbol":"M","props":{"quad":7}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"a"}}]
+当前待输入栈顶 -
+
+
+本轮操作 20
+当前状态栈 [0,2,7,13,9,15,26,37,47,52,54,56,57,11,8,14,20]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"S","props":{}},{"symbol":"N","props":{"nextList":[6]}},{"symbol":"else","props":{}},{"symbol":"M","props":{"quad":7}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"a"}}]
+当前待输入栈顶 -
+
+
+本轮操作 s33
+当前状态栈 [0,2,7,13,9,15,26,37,47,52,54,56,57,11,8,14,20,33]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"S","props":{}},{"symbol":"N","props":{"nextList":[6]}},{"symbol":"else","props":{}},{"symbol":"M","props":{"quad":7}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"a"}},{"symbol":"-","props":{}}]
+当前待输入栈顶 id
+
+
+本轮操作 s23
+当前状态栈 [0,2,7,13,9,15,26,37,47,52,54,56,57,11,8,14,20,33,23]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"S","props":{}},{"symbol":"N","props":{"nextList":[6]}},{"symbol":"else","props":{}},{"symbol":"M","props":{"quad":7}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"a"}},{"symbol":"-","props":{}},{"symbol":"id","props":{"lexeme":"b"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 F → id
+当前状态栈 [0,2,7,13,9,15,26,37,47,52,54,56,57,11,8,14,20,33]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"S","props":{}},{"symbol":"N","props":{"nextList":[6]}},{"symbol":"else","props":{}},{"symbol":"M","props":{"quad":7}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"a"}},{"symbol":"-","props":{}},{"symbol":"F","props":{"addr":"b"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 22
+当前状态栈 [0,2,7,13,9,15,26,37,47,52,54,56,57,11,8,14,20,33,22]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"S","props":{}},{"symbol":"N","props":{"nextList":[6]}},{"symbol":"else","props":{}},{"symbol":"M","props":{"quad":7}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"a"}},{"symbol":"-","props":{}},{"symbol":"F","props":{"addr":"b"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 T → F
+当前状态栈 [0,2,7,13,9,15,26,37,47,52,54,56,57,11,8,14,20,33]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"S","props":{}},{"symbol":"N","props":{"nextList":[6]}},{"symbol":"else","props":{}},{"symbol":"M","props":{"quad":7}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"a"}},{"symbol":"-","props":{}},{"symbol":"T","props":{"addr":"b"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 43
+当前状态栈 [0,2,7,13,9,15,26,37,47,52,54,56,57,11,8,14,20,33,43]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"S","props":{}},{"symbol":"N","props":{"nextList":[6]}},{"symbol":"else","props":{}},{"symbol":"M","props":{"quad":7}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"a"}},{"symbol":"-","props":{}},{"symbol":"T","props":{"addr":"b"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 E → E - T
+当前状态栈 [0,2,7,13,9,15,26,37,47,52,54,56,57,11,8,14]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"S","props":{}},{"symbol":"N","props":{"nextList":[6]}},{"symbol":"else","props":{}},{"symbol":"M","props":{"quad":7}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"t1"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 20
+当前状态栈 [0,2,7,13,9,15,26,37,47,52,54,56,57,11,8,14,20]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"S","props":{}},{"symbol":"N","props":{"nextList":[6]}},{"symbol":"else","props":{}},{"symbol":"M","props":{"quad":7}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"t1"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 s31
+当前状态栈 [0,2,7,13,9,15,26,37,47,52,54,56,57,11,8,14,20,31]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"S","props":{}},{"symbol":"N","props":{"nextList":[6]}},{"symbol":"else","props":{}},{"symbol":"M","props":{"quad":7}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"c"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"t1"}},{"symbol":";","props":{}}]
+当前待输入栈顶 }
+
+
+本轮操作 S → id = E ;
+当前状态栈 [0,2,7,13,9,15,26,37,47,52,54,56,57,11]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"S","props":{}},{"symbol":"N","props":{"nextList":[6]}},{"symbol":"else","props":{}},{"symbol":"M","props":{"quad":7}},{"symbol":"{","props":{}},{"symbol":"S","props":{}}]
+当前待输入栈顶 }
+
+
+本轮操作 6
+当前状态栈 [0,2,7,13,9,15,26,37,47,52,54,56,57,11,6]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"S","props":{}},{"symbol":"N","props":{"nextList":[6]}},{"symbol":"else","props":{}},{"symbol":"M","props":{"quad":7}},{"symbol":"{","props":{}},{"symbol":"S","props":{}}]
+当前待输入栈顶 }
+
+
+本轮操作 K → S
+当前状态栈 [0,2,7,13,9,15,26,37,47,52,54,56,57,11]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"S","props":{}},{"symbol":"N","props":{"nextList":[6]}},{"symbol":"else","props":{}},{"symbol":"M","props":{"quad":7}},{"symbol":"{","props":{}},{"symbol":"K","props":{}}]
+当前待输入栈顶 }
+
+
+本轮操作 17
+当前状态栈 [0,2,7,13,9,15,26,37,47,52,54,56,57,11,17]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"S","props":{}},{"symbol":"N","props":{"nextList":[6]}},{"symbol":"else","props":{}},{"symbol":"M","props":{"quad":7}},{"symbol":"{","props":{}},{"symbol":"K","props":{}}]
+当前待输入栈顶 }
+
+
+本轮操作 s29
+当前状态栈 [0,2,7,13,9,15,26,37,47,52,54,56,57,11,17,29]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"S","props":{}},{"symbol":"N","props":{"nextList":[6]}},{"symbol":"else","props":{}},{"symbol":"M","props":{"quad":7}},{"symbol":"{","props":{}},{"symbol":"K","props":{}},{"symbol":"}","props":{}}]
+当前待输入栈顶 while
+
+
+本轮操作 S → { K }
+当前状态栈 [0,2,7,13,9,15,26,37,47,52,54,56,57]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"S","props":{}},{"symbol":"N","props":{"nextList":[6]}},{"symbol":"else","props":{}},{"symbol":"M","props":{"quad":7}},{"symbol":"S","props":{}}]
+当前待输入栈顶 while
+
+
+本轮操作 58
+当前状态栈 [0,2,7,13,9,15,26,37,47,52,54,56,57,58]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"if","props":{}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[2],"falseList":[3]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":4}},{"symbol":"S","props":{}},{"symbol":"N","props":{"nextList":[6]}},{"symbol":"else","props":{}},{"symbol":"M","props":{"quad":7}},{"symbol":"S","props":{}}]
+当前待输入栈顶 while
+
+
+本轮操作 S → if ( C ) M S N else M S
+当前状态栈 [0,2,7,13]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"S","props":{"nextList":[6]}}]
+当前待输入栈顶 while
+
+
+本轮操作 19
+当前状态栈 [0,2,7,13,19]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{}},{"symbol":"M","props":{"quad":2}},{"symbol":"S","props":{"nextList":[6]}}]
+当前待输入栈顶 while
+
+
+本轮操作 K → K M S
+当前状态栈 [0,2]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}}]
+当前待输入栈顶 while
+
+
+本轮操作 7
+当前状态栈 [0,2,7]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}}]
+当前待输入栈顶 while
+
+
+本轮操作 M → ε
+当前状态栈 [0,2,7]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}}]
+当前待输入栈顶 while
+
+
+本轮操作 13
+当前状态栈 [0,2,7,13]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}}]
+当前待输入栈顶 while
+
+
+本轮操作 s10
+当前状态栈 [0,2,7,13,10]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}}]
+当前待输入栈顶 (
+
+
+本轮操作 M → ε
+当前状态栈 [0,2,7,13,10]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}}]
+当前待输入栈顶 (
+
+
+本轮操作 16
+当前状态栈 [0,2,7,13,10,16]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}}]
+当前待输入栈顶 (
+
+
+本轮操作 s28
+当前状态栈 [0,2,7,13,10,16,28]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}}]
+当前待输入栈顶 id
+
+
+本轮操作 s23
+当前状态栈 [0,2,7,13,10,16,28,23]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"id","props":{"lexeme":"a"}}]
+当前待输入栈顶 >
+
+
+本轮操作 F → id
+当前状态栈 [0,2,7,13,10,16,28]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"F","props":{"addr":"a"}}]
+当前待输入栈顶 >
+
+
+本轮操作 22
+当前状态栈 [0,2,7,13,10,16,28,22]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"F","props":{"addr":"a"}}]
+当前待输入栈顶 >
+
+
+本轮操作 T → F
+当前状态栈 [0,2,7,13,10,16,28]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"T","props":{"addr":"a"}}]
+当前待输入栈顶 >
+
+
+本轮操作 21
+当前状态栈 [0,2,7,13,10,16,28,21]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"T","props":{"addr":"a"}}]
+当前待输入栈顶 >
+
+
+本轮操作 E → T
+当前状态栈 [0,2,7,13,10,16,28]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"E","props":{"addr":"a"}}]
+当前待输入栈顶 >
+
+
+本轮操作 27
+当前状态栈 [0,2,7,13,10,16,28,27]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"E","props":{"addr":"a"}}]
+当前待输入栈顶 >
+
+
+本轮操作 s38
+当前状态栈 [0,2,7,13,10,16,28,27,38]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"E","props":{"addr":"a"}},{"symbol":">","props":{}}]
+当前待输入栈顶 id
+
+
+本轮操作 s23
+当前状态栈 [0,2,7,13,10,16,28,27,38,23]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"E","props":{"addr":"a"}},{"symbol":">","props":{}},{"symbol":"id","props":{"lexeme":"b"}}]
+当前待输入栈顶 )
+
+
+本轮操作 F → id
+当前状态栈 [0,2,7,13,10,16,28,27,38]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"E","props":{"addr":"a"}},{"symbol":">","props":{}},{"symbol":"F","props":{"addr":"b"}}]
+当前待输入栈顶 )
+
+
+本轮操作 22
+当前状态栈 [0,2,7,13,10,16,28,27,38,22]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"E","props":{"addr":"a"}},{"symbol":">","props":{}},{"symbol":"F","props":{"addr":"b"}}]
+当前待输入栈顶 )
+
+
+本轮操作 T → F
+当前状态栈 [0,2,7,13,10,16,28,27,38]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"E","props":{"addr":"a"}},{"symbol":">","props":{}},{"symbol":"T","props":{"addr":"b"}}]
+当前待输入栈顶 )
+
+
+本轮操作 21
+当前状态栈 [0,2,7,13,10,16,28,27,38,21]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"E","props":{"addr":"a"}},{"symbol":">","props":{}},{"symbol":"T","props":{"addr":"b"}}]
+当前待输入栈顶 )
+
+
+本轮操作 E → T
+当前状态栈 [0,2,7,13,10,16,28,27,38]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"E","props":{"addr":"a"}},{"symbol":">","props":{}},{"symbol":"E","props":{"addr":"b"}}]
+当前待输入栈顶 )
+
+
+本轮操作 48
+当前状态栈 [0,2,7,13,10,16,28,27,38,48]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"E","props":{"addr":"a"}},{"symbol":">","props":{}},{"symbol":"E","props":{"addr":"b"}}]
+当前待输入栈顶 )
+
+
+本轮操作 C → E > E
+当前状态栈 [0,2,7,13,10,16,28]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[9],"falseList":[10]}}]
+当前待输入栈顶 )
+
+
+本轮操作 41
+当前状态栈 [0,2,7,13,10,16,28,41]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[9],"falseList":[10]}}]
+当前待输入栈顶 )
+
+
+本轮操作 s51
+当前状态栈 [0,2,7,13,10,16,28,41,51]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[9],"falseList":[10]}},{"symbol":")","props":{}}]
+当前待输入栈顶 {
+
+
+本轮操作 M → ε
+当前状态栈 [0,2,7,13,10,16,28,41,51]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[9],"falseList":[10]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":11}}]
+当前待输入栈顶 {
+
+
+本轮操作 53
+当前状态栈 [0,2,7,13,10,16,28,41,51,53]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[9],"falseList":[10]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":11}}]
+当前待输入栈顶 {
+
+
+本轮操作 s11
+当前状态栈 [0,2,7,13,10,16,28,41,51,53,11]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[9],"falseList":[10]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":11}},{"symbol":"{","props":{}}]
+当前待输入栈顶 id
+
+
+本轮操作 s8
+当前状态栈 [0,2,7,13,10,16,28,41,51,53,11,8]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[9],"falseList":[10]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":11}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"b"}}]
+当前待输入栈顶 =
+
+
+本轮操作 s14
+当前状态栈 [0,2,7,13,10,16,28,41,51,53,11,8,14]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[9],"falseList":[10]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":11}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"b"}},{"symbol":"=","props":{}}]
+当前待输入栈顶 id
+
+
+本轮操作 s23
+当前状态栈 [0,2,7,13,10,16,28,41,51,53,11,8,14,23]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[9],"falseList":[10]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":11}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"b"}},{"symbol":"=","props":{}},{"symbol":"id","props":{"lexeme":"b"}}]
+当前待输入栈顶 +
+
+
+本轮操作 F → id
+当前状态栈 [0,2,7,13,10,16,28,41,51,53,11,8,14]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[9],"falseList":[10]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":11}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"b"}},{"symbol":"=","props":{}},{"symbol":"F","props":{"addr":"b"}}]
+当前待输入栈顶 +
+
+
+本轮操作 22
+当前状态栈 [0,2,7,13,10,16,28,41,51,53,11,8,14,22]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[9],"falseList":[10]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":11}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"b"}},{"symbol":"=","props":{}},{"symbol":"F","props":{"addr":"b"}}]
+当前待输入栈顶 +
+
+
+本轮操作 T → F
+当前状态栈 [0,2,7,13,10,16,28,41,51,53,11,8,14]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[9],"falseList":[10]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":11}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"b"}},{"symbol":"=","props":{}},{"symbol":"T","props":{"addr":"b"}}]
+当前待输入栈顶 +
+
+
+本轮操作 21
+当前状态栈 [0,2,7,13,10,16,28,41,51,53,11,8,14,21]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[9],"falseList":[10]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":11}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"b"}},{"symbol":"=","props":{}},{"symbol":"T","props":{"addr":"b"}}]
+当前待输入栈顶 +
+
+
+本轮操作 E → T
+当前状态栈 [0,2,7,13,10,16,28,41,51,53,11,8,14]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[9],"falseList":[10]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":11}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"b"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"b"}}]
+当前待输入栈顶 +
+
+
+本轮操作 20
+当前状态栈 [0,2,7,13,10,16,28,41,51,53,11,8,14,20]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[9],"falseList":[10]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":11}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"b"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"b"}}]
+当前待输入栈顶 +
+
+
+本轮操作 s32
+当前状态栈 [0,2,7,13,10,16,28,41,51,53,11,8,14,20,32]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[9],"falseList":[10]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":11}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"b"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"b"}},{"symbol":"+","props":{}}]
+当前待输入栈顶 digits
+
+
+本轮操作 s25
+当前状态栈 [0,2,7,13,10,16,28,41,51,53,11,8,14,20,32,25]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[9],"falseList":[10]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":11}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"b"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"b"}},{"symbol":"+","props":{}},{"symbol":"digits","props":{"lexeme":"1"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 F → digits
+当前状态栈 [0,2,7,13,10,16,28,41,51,53,11,8,14,20,32]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[9],"falseList":[10]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":11}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"b"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"b"}},{"symbol":"+","props":{}},{"symbol":"F","props":{"addr":"1"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 22
+当前状态栈 [0,2,7,13,10,16,28,41,51,53,11,8,14,20,32,22]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[9],"falseList":[10]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":11}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"b"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"b"}},{"symbol":"+","props":{}},{"symbol":"F","props":{"addr":"1"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 T → F
+当前状态栈 [0,2,7,13,10,16,28,41,51,53,11,8,14,20,32]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[9],"falseList":[10]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":11}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"b"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"b"}},{"symbol":"+","props":{}},{"symbol":"T","props":{"addr":"1"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 42
+当前状态栈 [0,2,7,13,10,16,28,41,51,53,11,8,14,20,32,42]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[9],"falseList":[10]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":11}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"b"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"b"}},{"symbol":"+","props":{}},{"symbol":"T","props":{"addr":"1"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 E → E + T
+当前状态栈 [0,2,7,13,10,16,28,41,51,53,11,8,14]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[9],"falseList":[10]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":11}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"b"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"t2"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 20
+当前状态栈 [0,2,7,13,10,16,28,41,51,53,11,8,14,20]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[9],"falseList":[10]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":11}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"b"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"t2"}}]
+当前待输入栈顶 ;
+
+
+本轮操作 s31
+当前状态栈 [0,2,7,13,10,16,28,41,51,53,11,8,14,20,31]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[9],"falseList":[10]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":11}},{"symbol":"{","props":{}},{"symbol":"id","props":{"lexeme":"b"}},{"symbol":"=","props":{}},{"symbol":"E","props":{"addr":"t2"}},{"symbol":";","props":{}}]
+当前待输入栈顶 }
+
+
+本轮操作 S → id = E ;
+当前状态栈 [0,2,7,13,10,16,28,41,51,53,11]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[9],"falseList":[10]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":11}},{"symbol":"{","props":{}},{"symbol":"S","props":{}}]
+当前待输入栈顶 }
+
+
+本轮操作 6
+当前状态栈 [0,2,7,13,10,16,28,41,51,53,11,6]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[9],"falseList":[10]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":11}},{"symbol":"{","props":{}},{"symbol":"S","props":{}}]
+当前待输入栈顶 }
+
+
+本轮操作 K → S
+当前状态栈 [0,2,7,13,10,16,28,41,51,53,11]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[9],"falseList":[10]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":11}},{"symbol":"{","props":{}},{"symbol":"K","props":{}}]
+当前待输入栈顶 }
+
+
+本轮操作 17
+当前状态栈 [0,2,7,13,10,16,28,41,51,53,11,17]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[9],"falseList":[10]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":11}},{"symbol":"{","props":{}},{"symbol":"K","props":{}}]
+当前待输入栈顶 }
+
+
+本轮操作 s29
+当前状态栈 [0,2,7,13,10,16,28,41,51,53,11,17,29]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[9],"falseList":[10]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":11}},{"symbol":"{","props":{}},{"symbol":"K","props":{}},{"symbol":"}","props":{}}]
+当前待输入栈顶 $
+
+
+本轮操作 S → { K }
+当前状态栈 [0,2,7,13,10,16,28,41,51,53]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[9],"falseList":[10]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":11}},{"symbol":"S","props":{}}]
+当前待输入栈顶 $
+
+
+本轮操作 55
+当前状态栈 [0,2,7,13,10,16,28,41,51,53,55]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"while","props":{}},{"symbol":"M","props":{"quad":9}},{"symbol":"(","props":{}},{"symbol":"C","props":{"trueList":[9],"falseList":[10]}},{"symbol":")","props":{}},{"symbol":"M","props":{"quad":11}},{"symbol":"S","props":{}}]
+当前待输入栈顶 $
+
+
+本轮操作 S → while M ( C ) M S
+当前状态栈 [0,2,7,13]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"S","props":{"nextList":[10]}}]
+当前待输入栈顶 $
+
+
+本轮操作 19
+当前状态栈 [0,2,7,13,19]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[6]}},{"symbol":"M","props":{"quad":9}},{"symbol":"S","props":{"nextList":[10]}}]
+当前待输入栈顶 $
+
+
+本轮操作 K → K M S
+当前状态栈 [0,2]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[10]}}]
+当前待输入栈顶 $
+
+
+本轮操作 7
+当前状态栈 [0,2,7]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"D","props":{}},{"symbol":"K","props":{"nextList":[10]}}]
+当前待输入栈顶 $
+
+
+本轮操作 P → D K
+当前状态栈 [0]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"P","props":{}}]
+当前待输入栈顶 $
+
+
+本轮操作 1
+当前状态栈 [0,1]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"P","props":{}}]
+当前待输入栈顶 $
+
+
+本轮操作 acc
+当前状态栈 [0,1]
+当前符号栈 [{"symbol":"$","props":{}},{"symbol":"P","props":{}}]
+当前待输入栈顶 $

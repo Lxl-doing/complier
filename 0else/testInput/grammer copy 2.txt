@@ -1,0 +1,8 @@
+E → T E1
+E1 → + T E
+E1 → ε
+T → F T1
+T1 → * F T1
+T1 → ε
+F → ( E )
+F → id

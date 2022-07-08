@@ -1,0 +1,14 @@
+0:	a = 2
+1:	b = 1
+2:	if a > b goto 4
+3:	goto 7
+4:	t0 = a + b
+5:	c = t0
+6:	goto 9
+7:	t1 = a - b
+8:	c = t1
+9:	if a > b goto 11
+10:	goto 14
+11:	t2 = b + 1
+12:	b = t2
+13:	goto 9

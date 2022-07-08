@@ -1,0 +1,29 @@
+Z → P
+P → D K
+D → L id ; D
+D → ε
+L → int
+L → float
+S → id = E ;
+S → if ( C ) M S
+S → if ( C ) M S N else M S
+S → while M ( C ) M S
+K → K M S
+C → E > E
+C → E < E
+C → E == E
+E → E + T
+E → E - T
+E → T
+T → F
+T → T * F
+T → T / F
+F → ( E )
+F → id 
+F → digits
+M → ε
+N → ε
+S → { K }
+K → S
+
+// 修改文法2

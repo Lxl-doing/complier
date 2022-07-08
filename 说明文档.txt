@@ -1,0 +1,13 @@
+操作系统：Windows10
+设计语言：Node.js（基于Chrome V8引擎的JavaScript运行环境）
+
+安装Node.js，在Compiler目录下打开集成终端，
+输入命令 node index 程序即可运行
+
+input文件夹是输入，下面grammer.txt输入语法，program.txt输入程序代码
+
+result是输出
+      词法分析阶段输出tokenArr、symbolTable
+      语法分析阶段输出grammerObj、FIRST集、FOLLOW集、项集族C、
+SLR分析表、SLR分析过程
+      语义分析中间代码生成阶段修改symbolTable、中间代码生成

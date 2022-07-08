@@ -1,0 +1,26 @@
+P1 → P
+P → D S
+P → S
+C → E > E
+C → E < E
+C → E == E
+D → L id ; D
+D → L id ;
+S → id = E;
+S → if ( C ) { S }
+S → if ( C ) { S } else { S }
+S → while ( C ) { S }
+S → S S
+T → F
+T → T * F
+T → T / F
+F → ( E )
+F → id
+F → int10
+L → int
+L → float
+E → E + T
+E → E - T
+E → T
+
+// 学姐文法，备用

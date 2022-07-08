@@ -1,0 +1,69 @@
+{
+    "int": {
+        "type": "keyword",
+        "value": "int"
+    },
+    "a": {
+        "type": "id",
+        "value": "a",
+        "vType": "int"
+    },
+    ";": {
+        "type": "SIMI",
+        "value": ";"
+    },
+    "b": {
+        "type": "id",
+        "value": "b",
+        "vType": "int"
+    },
+    "c": {
+        "type": "id",
+        "value": "c",
+        "vType": "int"
+    },
+    "=": {
+        "type": "op",
+        "value": "="
+    },
+    "if": {
+        "type": "keyword",
+        "value": "if"
+    },
+    "(": {
+        "type": "op",
+        "value": "("
+    },
+    ">": {
+        "type": "op",
+        "value": ">"
+    },
+    ")": {
+        "type": "op",
+        "value": ")"
+    },
+    "{": {
+        "type": "op",
+        "value": "{"
+    },
+    "+": {
+        "type": "op",
+        "value": "+"
+    },
+    "}": {
+        "type": "op",
+        "value": "}"
+    },
+    "else": {
+        "type": "keyword",
+        "value": "else"
+    },
+    "-": {
+        "type": "op",
+        "value": "-"
+    },
+    "while": {
+        "type": "keyword",
+        "value": "while"
+    }
+}

@@ -1,0 +1,163 @@
+[{
+    "type": "keyword",
+    "value": "int"
+},{
+    "type": "id",
+    "value": "a"
+},{
+    "type": "SIMI",
+    "value": ";"
+},{
+    "type": "keyword",
+    "value": "int"
+},{
+    "type": "id",
+    "value": "b"
+},{
+    "type": "SIMI",
+    "value": ";"
+},{
+    "type": "keyword",
+    "value": "int"
+},{
+    "type": "id",
+    "value": "c"
+},{
+    "type": "SIMI",
+    "value": ";"
+},{
+    "type": "id",
+    "value": "a"
+},{
+    "type": "op",
+    "value": "="
+},{
+    "type": "digits",
+    "value": "2"
+},{
+    "type": "SIMI",
+    "value": ";"
+},{
+    "type": "id",
+    "value": "b"
+},{
+    "type": "op",
+    "value": "="
+},{
+    "type": "digits",
+    "value": "1"
+},{
+    "type": "SIMI",
+    "value": ";"
+},{
+    "type": "keyword",
+    "value": "if"
+},{
+    "type": "op",
+    "value": "("
+},{
+    "type": "id",
+    "value": "a"
+},{
+    "type": "op",
+    "value": ">"
+},{
+    "type": "id",
+    "value": "b"
+},{
+    "type": "op",
+    "value": ")"
+},{
+    "type": "op",
+    "value": "{"
+},{
+    "type": "id",
+    "value": "c"
+},{
+    "type": "op",
+    "value": "="
+},{
+    "type": "id",
+    "value": "a"
+},{
+    "type": "op",
+    "value": "+"
+},{
+    "type": "id",
+    "value": "b"
+},{
+    "type": "SIMI",
+    "value": ";"
+},{
+    "type": "op",
+    "value": "}"
+},{
+    "type": "keyword",
+    "value": "else"
+},{
+    "type": "op",
+    "value": "{"
+},{
+    "type": "id",
+    "value": "c"
+},{
+    "type": "op",
+    "value": "="
+},{
+    "type": "id",
+    "value": "a"
+},{
+    "type": "op",
+    "value": "-"
+},{
+    "type": "id",
+    "value": "b"
+},{
+    "type": "SIMI",
+    "value": ";"
+},{
+    "type": "op",
+    "value": "}"
+},{
+    "type": "keyword",
+    "value": "while"
+},{
+    "type": "op",
+    "value": "("
+},{
+    "type": "id",
+    "value": "a"
+},{
+    "type": "op",
+    "value": ">"
+},{
+    "type": "id",
+    "value": "b"
+},{
+    "type": "op",
+    "value": ")"
+},{
+    "type": "op",
+    "value": "{"
+},{
+    "type": "id",
+    "value": "b"
+},{
+    "type": "op",
+    "value": "="
+},{
+    "type": "id",
+    "value": "b"
+},{
+    "type": "op",
+    "value": "+"
+},{
+    "type": "digits",
+    "value": "1"
+},{
+    "type": "SIMI",
+    "value": ";"
+},{
+    "type": "op",
+    "value": "}"
+},]
